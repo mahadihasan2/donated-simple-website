@@ -16,13 +16,13 @@ main {
 }
 .container {
     width: 1024px;
-    margin: 20px;
+    margin-top: 70px;
 }
 
 .section1{
     background-image: url(images/banner-1.png);
     background-repeat: no-repeat;
-    height: 550px;
+    height: 669px;
     background-size: cover;
 }
 .text{
@@ -58,3 +58,42 @@ main {
 .donateToday {
     text-align: center;
 }
+
+.donateToday h1 {
+    font-size: 30px;
+}
+
+.donateToday p {
+    font-size: 14px;
+    margin: 10px 0;
+}
+
+.amountBox {
+    display: flex;
+    justify-content: center;
+    margin: 30px 0;
+}
+
+.amount {
+    font-weight: 500;
+    color: #707070;
+    padding: 25px;
+    margin: 10px;
+}
+
+.amountActive {
+    border-radius: 5px;
+    border: 2px solid #FF5959;
+    background-color: #ff59593a;
+    color: #FF5959;
+}
+
+.inputAmount input {
+    text-align: center;
+    border: none;
+}
+
+.inputAmount .btn {
+    margin-top: 25px;
+}
+
