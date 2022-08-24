@@ -157,3 +157,19 @@ main {
     background-color: #fff4d6;
     border-radius: 5px;
 }
+
+.article {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.artHead {
+    font-size: 35px;
+    line-height: 40px;
+    margin: 15px 0;
+}
+
+.articleImg-2 {
+    margin-right: 60px;
+}
