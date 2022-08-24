@@ -97,3 +97,63 @@ main {
     margin-top: 25px;
 }
 
+.donationPlan {
+    text-align: center;
+}
+
+.donationPlan h1 {
+    font-size: 30px;
+}
+
+.donationPlan p {
+    font-size: 14px;
+    margin: 10px 0;
+}
+
+.planBox {
+    display: flex;
+    justify-content: center;
+    margin: 25px 0;
+}
+
+.card-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    width: 340px;
+    height: 332px;
+    background-color: #4F9DA61A;
+    border-radius: 5px;
+}
+
+.cardTitle {
+    margin:12px 0;
+}
+
+.cardBody {
+    font-size: 14px;
+}
+
+.card-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    width: 340px;
+    height: 332px;
+    background-color: #ffeeee;
+    border-radius: 5px;
+    margin: 0 30px;
+}
+
+.card-3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    width: 340px;
+    height: 332px;
+    background-color: #fff4d6;
+    border-radius: 5px;
+}
