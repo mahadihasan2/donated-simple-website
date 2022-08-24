@@ -206,6 +206,7 @@ main {
     width: 800px;
     height: 200px;
     background-color: #FFF4D6;
+    border-radius: 5px;
 }
 
 .form input {
@@ -216,7 +217,6 @@ main {
 }
 
 .form button {
-
     border: none;
     padding: 10px;
     background-color: #FF5959;
